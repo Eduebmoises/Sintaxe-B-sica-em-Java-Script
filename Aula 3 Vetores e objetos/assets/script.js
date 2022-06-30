@@ -72,17 +72,18 @@ console.log(novoarray);*/
 //• indexOf() – retorna o índice de um valor;
 
 //exemplos de como criar objetos
-
+/*
 
 let object ={string:'string', boolean:true, Number:1, array: [1,false, true], newobject:{string:'novastring'}};
 console.log (object);
+
 
 
 //como acessar apenas uma propriedade específica do objeto usando o exemplo da linha 75:
 /*
 console.log(object.newobject);
 */
-var string= object.string;
+/* var string= object.string;
 console.log(string);
 
 var arrayinterno = object.array;
@@ -90,3 +91,5 @@ console.log(arrayinterno);
 
 var {string, boolean, array} = object;
 console.log(string, boolean, array);
+
+//fim da aula 3 */
