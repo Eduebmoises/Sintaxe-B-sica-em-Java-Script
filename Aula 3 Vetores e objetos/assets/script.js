@@ -8,9 +8,11 @@ console.log(array);
 */
 
 //Pode guardar varios tipos de dados
-
-let array = ['string', 2, 3, false, ['array1'],['array2'],['array3'], true]
+/*
+let array = ['string', 2, 3, false, ['array1'],['array2'],['array3'], true];
+*/
 /*console.log(array)*/
+
 
 //forEach
 
@@ -22,8 +24,6 @@ let array = ['string', 2, 3, false, ['array1'],['array2'],['array3'], true]
 
 array.push(['arraynovopush']);
 console.log(array); 
-
-
 
 */
 
@@ -59,12 +59,34 @@ console.log(array);
 */
 
 //.slice (adiciona parte do intervalo informado de um array existente)
-
+/*
 let novoarray = array.slice(3, 7);
-console.log(novoarray);
+console.log(novoarray);*/
+
+//recapitulando:
+// forEach() – itera um array;
+//• push() – add item no final do array;
+//• pop() – remove item no final do array;
+//• shift() – remove item no início do array;
+//• unshift() – add item no início do array;
+//• indexOf() – retorna o índice de um valor;
+
+//exemplos de como criar objetos
 
 
+let object ={string:'string', boolean:true, Number:1, array: [1,false, true], newobject:{string:'novastring'}};
+console.log (object);
 
 
+//como acessar apenas uma propriedade específica do objeto usando o exemplo da linha 75:
+/*
+console.log(object.newobject);
+*/
+var string= object.string;
+console.log(string);
 
+var arrayinterno = object.array;
+console.log(arrayinterno);
 
+var {string, boolean, array} = object;
+console.log(string, boolean, array);
